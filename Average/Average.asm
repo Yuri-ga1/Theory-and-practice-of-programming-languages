@@ -64,7 +64,7 @@ Avg:
 
     xor edx, edx
     cdq
-    idiv ebx ; челое число в %ax, дробное в %dx
+    idiv ebx
 
     mov [result], eax
     printres [result]
